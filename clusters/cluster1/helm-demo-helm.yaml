@@ -13,3 +13,6 @@ spec:
         kind: GitRepository
         name: helm-demo-git
   interval: 1m0s
+  targetNamespace: default
+  values:
+    replicaCount: 2
